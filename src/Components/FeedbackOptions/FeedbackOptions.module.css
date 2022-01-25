@@ -1,0 +1,21 @@
+.feedbackList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feedbackItem {
+    list-style: none;
+}
+.feedbackItem :nth-child(-n + 2) {
+    margin-left: 10px;
+}
+.feedbackButton {
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-text-fill-color: black;
+}
+.feedbackButton:hover {
+    background: linear-gradient(to right, hsl(98 100% 62%), hsl(204 100% 59%));
+}

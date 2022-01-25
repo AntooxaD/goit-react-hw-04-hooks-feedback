@@ -1,0 +1,18 @@
+.statisticItem {
+    width: 300px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: left;
+}
+.statisticsList {
+    list-style: none;
+    font-size: 24px;
+    background: linear-gradient(
+        to right,
+        hsl(98, 100%, 37%),
+        hsl(204, 100%, 48%)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
